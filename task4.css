@@ -1,0 +1,235 @@
+.head{
+    color: black;
+    text-decoration: none;
+    justify-content: space-between;
+}
+.nav{
+    margin-left: auto;
+}
+.head{
+    margin-right: 25px;
+    font-size:large;
+    color: rgb(94, 94, 94);
+    font-weight: 500    ;
+}
+.body{
+    max-width: 1200px;
+    margin:0 auto;
+}
+.pro{
+    background-color: rgb(242, 44, 64);
+    color: antiquewhite;
+    font-size: 9px;
+    font-weight: 800;
+    padding: 2px;
+    border-radius: 5px;
+    margin-left: 2px;
+}
+h1{
+    font-size: 6em;
+    font-weight: 900;
+}
+.image{
+    height: 60px;
+    width: 60px;
+    margin-right: 16px;
+    display: inline-block;
+}
+.heading{
+    font-size: 20px;
+    font-weight: 500;
+    color:rgb(220, 99, 99);
+    margin-bottom: 8px;
+}
+.text{
+    font-size:smaller;
+}
+.banner{
+    background-image: url(
+        https://assets-global.website-files.com/5c5b0a009abbac199b244792/6405f6dd9cc6e06c4f9e6f9f_pro-banner-bg2.png
+    );
+    min-height: 550px;
+    background-position: 50%;
+    grid-column-gap: 30px;
+    grid-row-gap: 0px;
+    background-size: cover;
+    border-radius: 16px;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template: "Area Area-2"/1fr 1.25fr;
+    grid-auto-columns: 1fr;
+    align-items: center;
+}
+.banner-text{
+    width: 100%;
+    max-width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 60px;
+    display: flex;
+}
+h3{
+    color: #fff;
+    margin-top: 0;
+    margin-bottom: 8px;
+    font-size: 56px;
+    font-weight: 500;
+    line-height: 100%;
+}
+.bannerimg{
+    width: 100%;
+    background-image: url(https://assets-global.website-files.com/5c5b0a009abbac199b244792/6405fb871f85c3647743e0cb_pro-home-banner-2.png);
+    min-height: 550px;
+    background-position: 0 60%;
+    background-repeat: no-repeat;
+    justify-content: flex-end;
+    display: flex;
+    background-size: 90%;
+}
+.story-card{
+    display: flex;
+}
+.card1{
+    max-height: 340px;
+    max-width: 262px;
+    background-image: url(https://assets-global.website-files.com/5c5b0a009abbac199b244792/6048fc03df2a8e492b551ba2_Spotifyquarter-spotify-card-min.png);
+    background-size: 268px;
+    margin-bottom: 30px;
+    padding: 210px 16px 130px;
+    background-repeat: no-repeat;
+    margin-right:20px;
+}
+.logo{
+    max-width: none;
+    min-height: 0;
+    min-width: 0;
+    margin-left: 0;
+    padding-left: 0;
+
+}
+.card2{
+    max-height: 340px;
+    max-width: 262px;
+    background-image: url(https://assets-global.website-files.com/5c5b0a009abbac199b244792/6048fc1bb3e2c30a20723601_Card-insta-quarter-min.png);
+    background-size: 268px;
+    margin-bottom: 30px;
+    padding: 210px 16px 130px;
+    background-repeat: no-repeat;
+    margin-right:20px;
+}
+.card3{
+    max-height: 340px;
+    width: 300px;
+    background-image: url(https://assets-global.website-files.com/5c5b0a009abbac199b244792/6048fc1b559609ad1e835bae_Card-apple-quarter-min.png);
+    background-size: 268px;
+    margin-bottom: 30px;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    margin-bottom: 60px;
+    padding: 210px 16px 130px;
+}
+.card4{
+    max-width: 262px;
+    background-image: url(https://assets-global.website-files.com/5c5b0a009abbac199b244792/6049d70ce73b4cee8939e071_Card-min.png);
+    background-size: 268px;
+    margin-bottom: 30px;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    margin-bottom: 60px;
+    padding: 210px 16px 130px;
+    margin-left:-15px;
+}
+.logos-container{
+    flex-flow: wrap;
+    justify-content: center;
+    display: flex;
+}
+.img{
+    width: 100% !important
+}
+p{
+    font-size:3em;
+    font-weight: bolder;
+}
+.process-card{
+    min-height: 460px;
+    background-color: #faf9ff;
+    background-image: url(https://assets-global.website-files.com/5c5b0a009abbac199b244792/5fae62af5d51614280608143_community-card.png);
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: 520px;
+    border-radius: 16px;
+    margin-bottom: 40px;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 72px;
+    display: flex;
+}
+.process-card-left{
+    width: 34vw;
+    max-width: 520px;
+    min-width: auto;
+    align-self: center;
+    margin-right: 0;
+    padding-right: 0;
+}
+.bold-text-15 {
+    font-size: 32px;
+    font-weight: 700;
+}
+.body-extra-large.secondary{
+    color: var(--secondary-2);
+    margin-bottom: 40px;
+    font-family: Gordita,sans-serif;
+    font-weight: 300;
+    line-height: 32px;
+}
+.primary-button-brand {
+    width: auto;
+    background-color: #101519;
+    border-radius: 12px;
+    padding: 16px 24px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    display: flex
+}
+.primary-button-brand.hp {
+    margin: 0 auto;
+    padding-left: 24px;
+    padding-right: 24px;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+
+}
+.button-content{
+    display: flex;
+}
+.process-card.card-2 {
+    background-image: url(https://assets-global.website-files.com/5c5b0a009abbac199b244792/5fae62aeb58dfb011be88390_curator-card.png);
+    background-size: 432px;
+}
+
+.process-card.card-3 {
+    background-image: url(https://assets-global.website-files.com/5c5b0a009abbac199b244792/5fae91ed1d7ddd30e2e3cc9b_artist-card.png);
+    background-position: 100% 100%;
+}
+.process-card.card-4 {
+    background-color: #faf9ff;
+    background-image: url(https://assets-global.website-files.com/5c5b0a009abbac199b244792/5fae91ec68320d80280ebcf5_ai-card.png);
+}
+.process-card.card-5 {
+    background-image: url(https://assets-global.website-files.com/5c5b0a009abbac199b244792/6048b9a896e81456519677c5_publisher-card-2.png);
+}
+.short{
+    width: 100% !important;
+    margin-bottom: 20px;
+}
+.full{
+    width:1600px !important;
+    margin-left: -20%;
+    margin-bottom: 20px;
+}
